@@ -18,55 +18,62 @@ The system can:
 
 The dataset folder `Peoples/` contains images of individuals organized by name.  
 
-- **Folder structure example:**
-- Peoples/
+**Folder structure example:**
+
+Peoples/
 ├── Person1/
 │ ├── img1.jpg
 │ ├── img2.jpg
 ├── Person2/
 │ ├── img1.jpg
 │ └── ...
-**Usage**
 
-Download and extract the dataset (Peoples/) and model embeddings (model/).
 
-Open Face Recognition.ipynb in Jupyter Notebook.
+## **Usage**
 
-Run cells step-by-step:
+1. Download and extract the dataset (`Peoples/`) and model embeddings (`model/`).  
+2. Open `Face Recognition.ipynb` in Jupyter Notebook.  
+3. Run cells step-by-step:  
+   - Extract faces  
+   - Generate embeddings (optional if using precomputed model)  
+   - Recognize faces in new images  
 
-Extract faces
+---
 
-Generate embeddings (optional if using precomputed model)
+## **Skills & Technologies**
 
-Recognize faces in new images
+- Python, OpenCV  
+- DeepFace, ArcFace embeddings  
+- NumPy, Cosine Similarity  
+- Git & GitHub  
+- Optional: Gradio for interactive demo  
 
-Skills & Technologies
+---
 
-Python, OpenCV
+## **Applications**
 
-DeepFace, ArcFace embeddings
+- Security and access control systems  
+- Attendance automation  
+- Personal photo organization  
+- AI experiments in face recognition  
 
-NumPy, Cosine Similarity
+---
 
-Git & GitHub
-
-Optional: Gradio for interactive demo
-
-**Applications**
-
-Security and access control systems
-
-Attendance automation
-
-Personal photo organization
-
-AI experiments in face recognition
-
-**Output**
+## **Output / Demo**
 
 Here is an example output from the project:
 
- **Clone the repository:**
+![Face Recognition Output](model/output.png)
+
+
+*Detected faces labeled with names*  
+
+---
+
+## **Installation**
+
+Clone the repository:
+
+
 git clone https://github.com/Umar5199/Face-Recognition-System.git
-cd Face-Recognition-System
 
